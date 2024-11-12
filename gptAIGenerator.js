@@ -25,7 +25,6 @@ $(document).ready(function () {
   var dialogHTML =`
     <div id="gpt-dialog">
       <h3>Generate Test Scenarios</h3>
-      <input id="gpt-input" type="text" class="form-control form-fields" name="gpt-input" autocomplete="off" maxlength="200">
       <div contenteditable="true" class="form-control form-control-full field-editor" id="gpt-input_area" placeholder="" element-index="2" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></div>
       <br>
       <br>
